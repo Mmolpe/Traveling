@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textAppearanceTravellingH1" format="reference"/>
+    <attr name="textAppearanceTravellingH2" format="reference"/>
+    <attr name="textAppearanceTravellingH3" format="reference"/>
+    <attr name="textAppearanceTravellingH4" format="reference"/>
+    <attr name="textAppearanceTravellingH5" format="reference"/>
+    <attr name="textAppearanceTravellingH6" format="reference"/>
+    <attr name="textAppearanceTravellingSb1" format="reference"/>
+    <attr name="textAppearanceTravellingSb2" format="reference"/>
+    <attr name="textAppearanceTravellingBd1" format="reference"/>
+    <attr name="textAppearanceTravellingBd2" format="reference"/>
+    <attr name="textAppearanceTravellingBtt" format="reference"/>
+    <attr name="textAppearanceTravellingCap" format="reference"/>
+    <attr name="textAppearanceTravellingOverL" format="reference"/>
+
+</resources>

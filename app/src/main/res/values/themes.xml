@@ -1,9 +1,37 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Traveling" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!--Primary colors-->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/onPrimary</item>
+
+        <!--Secondary colors-->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/onSecondary</item>
+
+        <!--Windows colors-->
+        <item name="android:windowBackground">@color/windowsBackground</item>
+
+
+        <!--text Apperance-->
+        <item name="textAppearanceTravellingH1">@style/TextAppearance.Travelling.Headline1</item>
+        <item name="textAppearanceTravellingH2">@style/TextAppearance.Travelling.Headline2</item>
+        <item name="textAppearanceTravellingH3">@style/TextAppearance.Travelling.Headline3</item>
+        <item name="textAppearanceTravellingH4">@style/TextAppearance.Travelling.Headline4</item>
+        <item name="textAppearanceTravellingH5">@style/TextAppearance.Travelling.Headline5</item>
+        <item name="textAppearanceTravellingH6">@style/TextAppearance.Travelling.Headline6</item>
+        <item name="textAppearanceTravellingBd1">@style/TextAppearance.Travelling.Body1</item>
+        <item name="textAppearanceTravellingBd2">@style/TextAppearance.Travelling.Body2</item>
+        <item name="textAppearanceTravellingBtt">@style/TextAppearance.Travelling.Button</item>
+        <item name="textAppearanceTravellingCap">@style/TextAppearance.Travelling.Caption</item>
+        <item name="textAppearanceTravellingOverL">@style/TextAppearance.Travelling.Overline</item>
+
+
+
     </style>
+
 
     <style name="Theme.Traveling" parent="Base.Theme.Traveling" />
 </resources>
