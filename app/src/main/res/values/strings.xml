@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Traveling</string>
+    <string name="titulo">Tu App de Viajes</string>
+    <string name="introduccion">Hola, estamos buscando a millones de usuarios con inquietudes y ganas de viajar. Si eres tu? No lo dudes y accede a nuestra app y descubriras miles de destinos y facilidades para alquilar coches, ver el tiempo...\n</string>
+    <string name="Continuar">Siguiente</string>
+    <string name="titulo_menu">Próximos viajes</string>
+    <string name="subContainer1">USA, Los Angeles - 2 semanas</string>
+    <string name="subContainer1Text">Ciudad de los Angeles</string>
+    <string name="subContainer2Text">Vacaciones en la playa</string>
+    <string name="subContainer2">Maldivas - 3 semanas</string>
 </resources>

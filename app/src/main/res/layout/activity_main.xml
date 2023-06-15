@@ -2,17 +2,84 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imagen_fondo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background_onboarding"
+        android:layout_marginBottom="120dp"
+        >
+
+    </androidx.appcompat.widget.AppCompatImageView>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imagen_moto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/imagen_fondo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nomads_moto">
+
+    </androidx.appcompat.widget.AppCompatImageView>
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?textAppearanceTravellingH4"
+        android:text="@string/titulo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="25dp">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_introduccion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/introduccion"
+        android:textAlignment="center"
+        android:justificationMode="inter_word"
+        android:textAppearance="?textAppearanceTravellingBd1"
+        app:layout_constraintEnd_toEndOf="@+id/imagen_fondo"
+        app:layout_constraintStart_toStartOf="@+id/imagen_fondo"
+        app:layout_constraintTop_toBottomOf="@+id/main_titulo" >
+
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/main_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Continuar"
+        app:layout_constraintBottom_toBottomOf="@+id/imagen_moto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagen_fondo"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:textAppearance="?textAppearanceTravellingBtt"
+        />
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
