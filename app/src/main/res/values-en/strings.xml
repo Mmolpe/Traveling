@@ -9,4 +9,11 @@
     <string name="subContainer1Text">City os Los angeles</string>
     <string name="subContainer2Text">Beach vacation</string>
     <string name="subContainer2">Maldives - 3 weeks</string>
+    <string name="login">Login</string>
+    <string name="pass">Password</string>
+    <string name="forgot">Forgot password</string>
+    <string name="count">Do you hace an account?</string>
+    <string name="nueva">Get new</string>
+    <string name="crea">Create new</string>
+    <string name="tarde">This function will be implemented later</string>
 </resources>
