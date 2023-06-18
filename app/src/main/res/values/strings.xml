@@ -8,4 +8,11 @@
     <string name="subContainer1Text">Ciudad de los Angeles</string>
     <string name="subContainer2Text">Vacaciones en la playa</string>
     <string name="subContainer2">Maldivas - 3 semanas</string>
+    <string name="login">Registrate</string>
+    <string name="pass">Contraseña</string>
+    <string name="forgot">Olvidaste la contraseña</string>
+    <string name="count">¿No tienes cuenta?</string>
+    <string name="nueva">Nueva contraseña</string>
+    <string name="crea">Crea una cuenta</string>
+    <string name="tarde">Esta función se implementara mas adelante</string>
 </resources>

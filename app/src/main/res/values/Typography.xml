@@ -31,12 +31,14 @@
         <item name="fontFamily">@font/rubik</item>
         <item name="android:fontFamily">@font/rubik</item>
         <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="TextAppearance.Travelling.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
         <item name="fontFamily">@font/rubik</item>
         <item name="android:fontFamily">@font/rubik</item>
         <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="TextAppearance.Travelling.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
